@@ -1,0 +1,34 @@
+# rules.krb
+
+
+
+defrule rule_1
+    ($money >= 10000, college_level = true)
+    
+    -->
+    securities = true
+    print("Rule 1: You should invest in securities.")
+
+defrule rule_2
+    ($money >= 40000, college_level = true)
+    -->
+    growth = true
+    print("Rule 2: You should invest in growth stocks.")
+
+defrule rule_3
+    ($age < 30, securities = true)
+    -->
+    growth = true
+    print("Rule 3: You should invest in growth stocks.")
+
+defrule rule_4
+    ($age < 30)
+    -->
+    college_level = true
+    print("Rule 4: Person has a college degree.")
+
+defrule rule_5
+    (growth = true)
+    -->
+    ibm = true
+    print("Rule 5: The stock should be IBM.")

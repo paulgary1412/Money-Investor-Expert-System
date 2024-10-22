@@ -1,0 +1,22 @@
+#question base
+
+
+asking_money($amount, $has_money)
+    Enter money you have:? $amount
+    Are you sure you have $amount?
+    ---
+    $amount = float
+    $has_money = yn
+            if $has_money == 'n':
+                print("Please come back when you have the money.")
+            else:
+
+
+asking_age($age, $is_age)
+    How old are you?
+    Are you sure you are "$age" years old
+    ---
+    $age = int
+    $is_age = yn
+
+

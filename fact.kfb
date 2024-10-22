@@ -1,0 +1,14 @@
+#fact base
+
+assert(asking_money($amount, $has_money))
+assert(asking_age($age, $is_age))
+
+assert(college_level())
+assert(income())
+assert(securities())
+assert(growth())
+assert(ibm())
+
+
+
+
